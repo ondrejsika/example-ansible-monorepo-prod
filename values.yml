@@ -1,1 +1,7 @@
-token: prod-token
+sshd_permit_root_login: 'yes'
+sshd_password_authentication: 'no'
+
+root_ssh_keys:
+  - https://github.com/ondrejsika.keys
+
+nginx_site_message: Hello from Production!
